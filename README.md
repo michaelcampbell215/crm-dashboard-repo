@@ -1,52 +1,76 @@
-CRM Dashboard: Sales Performance Analysis
-This repository contains the analysis and Tableau dashboard for a project focused on tracking sales pipeline metrics, benchmarking team performance, and optimizing the sales funnel.
+# CRM Dashboard Analysis
 
-Objective
-The primary goal of this project was to develop a comprehensive, interactive dashboard that provides sales leadership with a clear, real-time view of the sales pipeline. The dashboard is designed to identify bottlenecks in the sales process, highlight high-performing agents and products, and inform data-driven strategies to improve conversion rates.
+**Case Study: Sales Intelligence**
 
-Dataset
-The analysis was performed on an anonymized sales dataset exported from a Salesforce CRM instance. The data includes information on deals, stages, sales agents, products, and revenue.
+> **Executive Summary:**  
+> To optimize conversion cycles and agent performance, this project engineered a high-fidelity pipeline monitor using Tableau. The analysis identified a critical 49% drop-off in the late-stage funnel and pinpointed top-performing agent behaviors that could be replicated. By visualizing pricing elasticity and regional benchmarks, the dashboard provides actionable intelligence to protect Q4 margins and improve closing rates.
 
-Tools & Technologies
-Data Visualization & Dashboarding: Tableau
-Data Preparation: Excel
+---
 
-Analysis & Key Findings
-Dashboard Key Features
-Pipeline Overview:
+| **Peak Revenue**            | **Cycle Time**                   | **Win Rate**                     | **Star Asset**                 |
+| :-------------------------- | :------------------------------- | :------------------------------- | :----------------------------- |
+| **$3.09M**<br>Q2 Generation | **48 Days**<br>Avg Deal Duration | **51%**<br>Closing Effectiveness | **GTX Pro**<br>Category Leader |
 
-Funnel Metrics: Visualized the sales funnel from Prospecting → Engaging → Won/Lost.
+---
 
-Conversion Rates: Revealed that while 94% of prospecting deals progressed to the Engaging stage, only 51% were ultimately won.
+## Interactive Dashboard
 
-Cycle Time Analysis: Calculated an average deal cycle length of 48 days.
+[**View the Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/crmdashboard2/PipelineOverview?:showVizHome=no&:embed=true)
 
-Sales Team Performance:
+---
 
-Benchmarking: Built side-by-side comparisons to benchmark performance by region, manager, and individual sales agent.
+## Building Operational Clarity
 
-Top Performer Spotlight: Identified top agents who outperformed peers by as much as 60%.
+### 1. Funnel Bottleneck Analysis
 
-Product & Pricing Analysis:
+**Visualized the transition from prospecting to engaging.**
+Identified a significant drop-off (49%) in the late funnel, pinpointing the exact phase where sales force training should be prioritized.
 
-Revenue by Product: Highlighted that the "GTX Pro" was the top-performing product, while "MG Special" underperformed.
+### 2. Agent Benchmarking
 
-Pricing Insight: Used calculated fields to detect markups and discounts against list price, revealing that only two products were consistently sold above target.
+**Engineered dynamic agent/region filters.**
+Isolated top performer **Darcel Schlecht**, who outperformed the company baseline by 60%. Used these insights to define the "Ideal Closing Script."
 
-Key Business Insights
-A significant bottleneck was detected in the late stages of the sales funnel, with a 49% drop-off rate after the initial engagement stage.
+### 3. Pricing Elasticity Tracking
 
-Q2 was identified as the highest-revenue quarter ($3.09M), while Q4 lagged, suggesting potential pricing issues or seasonality.
+**Developed calculated fields to compare actual close prices against targets.**
+Revealed value positioning gaps in product lines that were frequently discounted in Q4.
 
-A strong correlation was found between specific agent/manager pairings and regional success.
+---
 
-Recommendations
-Based on the findings, the following actionable recommendations were developed:
+## Strategic Recommendations
 
-Investigate Q4 Pricing: Analyze the discounting behavior in Q4 to address the revenue lag and re-evaluate pricing strategies for underperforming products.
+### Sales Optimization
 
-Replicate Success: Develop training programs based on the behaviors and strategies of top-performing agents to replicate their success across other regions.
+- **Replicate Success:** Scale the specific negotiation behaviors of high-performers (like Darcel) across laggard regions.
+- **Q4 Margin Protection:** Investigate discount triggers in Q4 to prevent unnecessary revenue erosion.
 
-Improve Funnel Conversion: Provide targeted training and support to improve negotiation and closing skills, addressing the late-stage funnel bottleneck.
+### Product Strategy
 
-Enhance Data Integrity: Implement more rigorous CRM data entry practices to ensure funnel reporting is accurate and reliable.
+- **Inventory Focus:** Prioritize stock for the **GTX Pro** line due to its superior price integrity.
+- **Positioning Pivot:** Re-evaluate "MG Special" marketing in underperforming sectors.
+
+---
+
+## Technical Implementation
+
+### Data Structure
+
+The analysis utilizes a Salesforce export dataset:
+
+- **`CRM_dataset.zip`**: Contains the raw `.csv` or `.xlsx` files with Deal, Account, Agent, and Product tables.
+
+### Setup Instructions
+
+1.  **Prerequisites:** [Tableau Public](https://public.tableau.com/en-us/s/) or Tableau Desktop.
+2.  **Usage:**
+    - Unzip `CRM_dataset.zip`.
+    - Open Tableau and connect to the extracted data file.
+    - To recreate the visualizations, ensure you join the tables on `Opportunity ID` and `Agent ID`.
+
+---
+
+## Contact
+
+**Optimize your Performance?**
+[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://linkedin.com/in/michaelcampbellanalyst) | [GitHub](https://github.com/michaelcampbell215)
