@@ -1,4 +1,4 @@
-# CRM Dashboard Analysis
+# Revenue Pipeline Control
 
 **Case Study: Sales Intelligence**
 
