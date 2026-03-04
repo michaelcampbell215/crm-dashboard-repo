@@ -73,4 +73,4 @@ The analysis utilizes a Salesforce export dataset:
 ## Contact
 
 **Optimize your Performance?**
-[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://linkedin.com/in/michaelcampbellanalyst) | [GitHub](https://github.com/michaelcampbell215)
+[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://www.linkedin.com/in/michaelcampbell215) | [GitHub](https://github.com/michaelcampbell215)
